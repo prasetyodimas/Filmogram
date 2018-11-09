@@ -1,19 +1,28 @@
 {
-  "name": "filmografi-spa",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "films",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-scripts": "2.1.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/winarcooo/Filmografi-spa.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/winarcooo/Filmografi-spa/issues"
-  },
-  "homepage": "https://github.com/winarcooo/Filmografi-spa#readme"
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "reactstrap": "^6.5.0"
+  }
 }
