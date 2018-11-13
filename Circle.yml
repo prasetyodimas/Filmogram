@@ -1,0 +1,9 @@
+deployment :
+    production :
+        branch : master
+        command : 
+            - ./deploy_prod.sh
+            
+test :
+    override :
+        - echo 'No test, just say us Okay'
