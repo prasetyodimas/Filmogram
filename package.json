@@ -58,9 +58,17 @@
     "workbox-webpack-plugin": "3.6.3"
   },
   "scripts": {
+<<<<<<< HEAD
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
+=======
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "watch-css": "less-watch-compiler src/ ./styles/less/",
+    "eject": "react-scripts eject",
+>>>>>>> 563ca7976e16931251578fd1d0648415aebca15b
     "clean": "rimraf build"
   },
   "eslintConfig": {
@@ -74,7 +82,10 @@
   ],
   "devDependencies": {
     "@babel/preset-react": "^7.0.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
     "node-sass": "^4.10.0",
+    "react-app-rewire-less": "^2.1.3",
     "reactstrap": "^6.5.0",
     "source-map-explorer": "^1.6.0"
   },
