@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './assets/logo/logo.svg';
-import styles from './styles/less/filmogram.less';
+import styles from './styles/less/filmogram.scss';
 
 class App extends Component {
   render() {
