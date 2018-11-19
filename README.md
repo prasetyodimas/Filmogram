@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Author
+
+Andy Winarko  ( https://github.com/winarcooo Backendev )
+Dimas Prasetyo ( https://github.com/vladmir123 Frontdev )
+
 ## Available Scripts
 
 In the project directory, you can run:
