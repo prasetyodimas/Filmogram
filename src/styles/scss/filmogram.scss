@@ -1,0 +1,39 @@
+/*
+|
+| Filmogram version 1.0
+| Develop : Dimas Prasetyo (Frontend Developer)
+| Email   : prasetyo.dimas.developer@gmaill.com
+|
+*/
+
+//Variables
+// @import '../scss/base/vars.scss';
+// @import "../scss/base/bootstrap-variables.scss";
+
+//Base rules (bootstrap core with normalize)
+@import "../scss/base/normalize.scss";
+// @import '../scss/base/base.scss';
+// @import "../scss/base/bootstrap-mixins.scss";
+// @import "../scss/base/bootstrap-scaffolding.scss";
+// @import "../scss/base/bootstrap-type.scss";
+
+@import '../scss/components/all';
+
+//Navbar
+@import '../scss/components/navbargotcha';
+
+//Layout rules
+// @import "../scss/layout/bootstrap-grid.scss";
+// @import "../scss/layout/responsive-utilities.scss";
+
+//Object rules
+// @import "../scss/objects/component-animations.scss";
+// @import "../scss/objects/buttons.scss";
+// @import "../scss/objects/panels.scss";
+// @import "../scss/objects/navs.scss";
+// @import "../scss/objects/navs.scss";
+// @import "../scss/objects/navs.scss";
+// @import "../scss/objects/objects.scss";
+
+//State rules
+// @import "../scss/state/state.scss";
