@@ -17,6 +17,9 @@
 // @import "../scss/base/bootstrap-scaffolding.scss";
 // @import "../scss/base/bootstrap-type.scss";
 
+@import "../scss/components/base/parents.scss";
+@import "../scss/components/base/layouts.scss";
+@import "../scss/components/search/search.scss";
 @import '../scss/components/all';
 
 //Navbar
