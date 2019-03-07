@@ -1,24 +1,25 @@
 import React, { Component } from 'react';
+import ReactGA from 'react-ga'; 
 //components
 import BannerAdstop from './components/BannerAdstop';
 import Headers from './components/Headers';
 import Search from './components/Searchbar';
 import SidebarRightApp from './components/SidebarRight';
+import MoviebestLanding from './components/MoviebestLanding';
 import FooterApp from './components/Footer';
 //library
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faIgloo } from '@fortawesome/free-solid-svg-icons';
 
+//initialize Google analytics
+ReactGA.initialize('UA-131344166-1');
+ReactGA.ga('send','pageview','home');
 
 library.add(faIgloo)
 
 class App extends Component {
   constructor(props){
     super(props);
-  }
-
-  componentWillMount(){
   }
 
   render() {
@@ -39,6 +40,9 @@ class App extends Component {
           </div>
         <SidebarRightApp/>
         </section>
+        <div className="container">
+          <MoviebestLanding/>
+        </div>
         <FooterApp/>
       </div>
     );

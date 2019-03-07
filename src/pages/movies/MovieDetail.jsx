@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 class MovieDetail extends Component {
+	constructor(props) {
+		super(props);
+	}
+
 	render() {
 		return (
 			<div className="wrapper">
@@ -28,16 +32,15 @@ class MovieDetail extends Component {
 
 	                  <a href="#" class="comment-link">Comments:  15</a>
 	                  <div class="movie__btns movie__btns--full">
-	                    <a href="#" class="btn btn-md btn--warning">book a ticket for this movie</a>
 	                    <a href="#" class="watchlist">Add to watchlist</a>
 	                  </div>
 
 	                  <div class="share">
 	                  	<span class="share__marker">Share: </span>
 	                		<div class="addthis_toolbox addthis_default_style ">
-	                      <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+	                      <a class="addthis_button_facebook_like"></a>
 	                      <a class="addthis_button_tweet"></a>
-	                      <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+	                      <a class="addthis_button_google_plusone"></a>
 	                  </div>
               		</div>
                 </div>

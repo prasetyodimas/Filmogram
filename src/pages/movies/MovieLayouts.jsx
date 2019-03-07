@@ -14,8 +14,16 @@ import { faIgloo } from '@fortawesome/free-solid-svg-icons';
 library.add(faIgloo)
 
 class MovieLayouts extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
+    
+    this.state = {
+      person:[]
+    }
+  }
+
+  componentDidMount() {
+    this.foo.fetchApiOmdb();
   }
 
   render() {
@@ -26,7 +34,7 @@ class MovieLayouts extends Component {
         <Headers/>
         <Search/>
         <section className="container">
-          <MovieBox/>         
+          <MovieBox ref={foo => this.foo = foo}/>         
         </section>
         <FooterApp/>
       </div>

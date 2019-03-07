@@ -7,6 +7,10 @@ import SidebarRightApp from '../../components/SidebarRight';
 import FooterApp from '../../components/Footer';
 
 class AboutUs extends Component {
+	constructor(props) {
+		super(props);
+	}
+
 	render() {
 		return (
 			<div className="wrapper">

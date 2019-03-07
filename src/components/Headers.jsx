@@ -18,8 +18,8 @@ class Headers extends Component {
           </Link>
           <NavbarApps/>
           <div className="control-panel">
-            <Link to="/sign-in" className="btn btn--sign"> Sign in</Link>
-            <Link to="/book-ticket" className="btn btn-md btn--warning btn--book"> Book a ticket</Link>
+            <Link to="" className="btn btn--sign"> Sign in</Link>
+            <Link to="/" className="btn btn-md btn--warning btn--book"> Book a ticket</Link>
           </div>
         </div>
       </header>
