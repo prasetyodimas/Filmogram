@@ -71,7 +71,7 @@ class Navbar extends Component {
 												<input type='email' placeholder='Email' name='user-email' className="login__input"/>
 												<input type='password' placeholder='Password' name='user-password' className="login__input"/>
 												<input type='checkbox' id='#informed' className='login__check styled'/>
-												<label for='#informed' className='login__check-info'>remember me</label>
+												<label className='login__check-info'>remember me</label>
 											</div>
 											<div className="login__control">
 												<button type='submit' className="btn btn-md btn--warning btn--wider">sign in</button>
