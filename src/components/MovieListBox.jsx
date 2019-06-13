@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import Paginations from '../components/Paginations';
-import movieCover from '../assets/images/movie/covermovie.png';
+// import { Link } from 'react-router-dom';
+// import Paginations from '../components/Paginations';
+// import movieCover from '../assets/images/movie/covermovie.png';
 
 class MovieListBox extends Component {
   constructor(props){
@@ -16,7 +16,7 @@ class MovieListBox extends Component {
   componentDidMount() {
     this.fetchApiOmdb();
   }
- 
+
   fetchApiOmdb() {
     fetch('http://www.omdbapi.com/?s=Batman&page=2&apikey=5c18fb8f')
       .then(results => {

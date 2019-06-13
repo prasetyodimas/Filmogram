@@ -1,6 +1,6 @@
-let configApp = [{
-		title: 'FILMOGRAMINFO',
-		url: '',
-		author: '',
-	},
-];
+// let configApp = [{
+// 		title: 'FILMOGRAMINFO',
+// 		url: '',
+// 		author: '',
+// 	},
+// ];

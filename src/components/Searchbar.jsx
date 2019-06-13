@@ -1,4 +1,4 @@
-import React, { Component } from 'react'; 
+import React, { Component } from 'react';
 
 import { withRouter } from 'react-router' ;
 import { connect } from 'react-redux';
@@ -12,11 +12,11 @@ const mapDispatchToProps = dispatch => {
 class Searchbar extends Component {
 
   searchMovie(e) {
-    e.preventDefault();
-    if (this.refs.q.value.length != 0 && this.props.location.query.q != this.refs.q.value) {
-        this.props.router.push(`/movies?q=${this.refs.q.value}`);
-        if (this.props.caller == 'list-page') this.props.getMovieList({q: this.refs.q.value, page: 1});
-    }
+    // e.preventDefault();
+    // if (this.refs.q.value.length != 0 && this.props.location.query.q != this.refs.q.value) {
+        // this.props.router.push(`/movies?q=${this.refs.q.value}`);
+        // if (this.props.caller == 'list-page') this.props.getMovieList({q: this.refs.q.value, page: 1});
+    // }
   }
 
   componentDidMount() {
@@ -29,8 +29,8 @@ class Searchbar extends Component {
         <div className="container container--add">
             <form id='search-form' method='get' className="search">
               <input type="text" ref="q" className="search__field" placeholder="Search"/>
-              <select name="sorting_item" id="search-sort" className="search__sort" tabindex="0">
-                <option value="1" selected='selected'>By title</option>
+              <select name="sorting_item" id="search-sort" className="search__sort">
+                <option value="1">By title</option>
                 <option value="2">By year</option>
                 <option value="3">By producer</option>
                 <option value="4">By title</option>
@@ -39,7 +39,7 @@ class Searchbar extends Component {
             <button type='submit' className="btn btn-md btn--danger search__button" onClick={ this.searchMovie.bind(this) }>search a movie</button>
             </form>
         </div>
-      </div>		
+      </div>
     );
 	}
 }

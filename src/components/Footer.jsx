@@ -1,17 +1,8 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';	
-import configSite from '../configSite';
+import { Link } from 'react-router-dom';
+// import configSite from '../configSite';
 
 class Footer extends Component {
-  constructor(props){
-    super(props);
-    let configApp = [{
-        title: 'FILMOGRAMINFO',
-        url: '',
-        author: '',
-      },
-    ];
-  }
 
   render() {
   return (

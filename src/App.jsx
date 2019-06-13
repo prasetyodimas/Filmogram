@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactGA from 'react-ga'; 
+import ReactGA from 'react-ga';
 //components
 import BannerAdstop from './components/BannerAdstop';
 import Headers from './components/Headers';
@@ -18,10 +18,6 @@ ReactGA.ga('send','pageview','home');
 library.add(faIgloo)
 
 class App extends Component {
-  constructor(props){
-    super(props);
-  }
-
   render() {
     return (
       /* Parents App !*/
@@ -30,12 +26,12 @@ class App extends Component {
         <Headers/>
         <Search/>
         <section className="container">
-          <div className="container-filmograms"> 
+          <div className="container-filmograms">
               <div className="col-sm-8 col-md-9">
                 <div className="row">
                   <h2 className="page-heading">Movies</h2>
                 </div>
-                
+
               </div>
           </div>
         <SidebarRightApp/>
