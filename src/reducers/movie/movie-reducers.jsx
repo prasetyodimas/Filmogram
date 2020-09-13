@@ -3,17 +3,17 @@ import {
 	SET_PAGE,
 	SET_MOVIE_LIST,
 	SET_MOVIE_DETAIL
-} from '../constants';
+} from '../../constants';
 
 const initialState = {
-	items: { Search: [],totalResults: 0 },
+	items: { Search: [], totalResults: 0 },
 	page: 1,
 	item: {},
 	isLoading: false,
 	q: ''
 }
 
-function rootReducers(state = initialState, action) {
+function movieReducers(state = initialState, action) {
 	if (action.type === SET_MOVIE_LIST) {
 		return {
 			...state,
@@ -48,4 +48,4 @@ function rootReducers(state = initialState, action) {
 	return state;
 }
 
-export default rootReducers;
+export default movieReducers;

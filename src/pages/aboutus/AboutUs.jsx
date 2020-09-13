@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-//component
 import BannerTops from '../../components/BannerAdstop';
 import Headers from '../../components/Headers';
 import Search from '../../components/Searchbar';
