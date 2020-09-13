@@ -8,18 +8,18 @@ class Headers extends Component {
 
   render() {
     return (
-      	<header className="header-wrapper">
-			<div className="container">
-				<Link to="/" className="logo">
-					<img className="logo-branding" alt='logo' src={logoAmovie}/>
-				</Link>
-				<NavbarApps/>
-				<div className="control-panel">
-					<Link to="" className="btn btn--sign"> Sign in</Link>
-					<Link to="/" className="btn btn-md btn--warning btn--book"> Book a ticket</Link>
+			<header className="header-wrapper">
+				<div className="container">
+					<Link to="/" className="logo">
+						<img className="logo-branding" alt='logo' src={logoAmovie}/>
+					</Link>
+					<NavbarApps/>
+					<div className="control-panel">
+						{/* <Link to="" className="btn btn--sign"> Sign in</Link> */}
+						{/* <Link to="/" className="btn btn-md btn--warning btn--book"> Book a ticket</Link> */}
+					</div>
 				</div>
-			</div>
-      	</header>
+			</header>
     );
   }
 }

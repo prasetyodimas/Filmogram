@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 class MoviebestLanding extends Component {
 	render() {
 		return (

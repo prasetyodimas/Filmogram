@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-//component
 import BannerTops from '../../components/BannerAdstop';
 import Headers from '../../components/Headers';
 import Search from '../../components/Searchbar';
