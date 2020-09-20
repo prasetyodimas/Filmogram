@@ -34,8 +34,8 @@ class GalleryMovies extends Component {
 						</div>
 					</div>
 				</section>
-       			<FooterApp/>
-      		</div>
+				<FooterApp/>
+			</div>
 		);
 	}
 }

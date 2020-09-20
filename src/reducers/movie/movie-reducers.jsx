@@ -3,7 +3,7 @@ import {
 	SET_PAGE,
 	SET_MOVIE_LIST,
 	SET_MOVIE_DETAIL
-} from '../../constants';
+} from '../../actions/creators/type';
 
 const initialState = {
 	items: { Search: [], totalResults: 0 },

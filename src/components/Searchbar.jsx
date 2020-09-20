@@ -2,17 +2,19 @@ import React, { Component } from 'react';
 
 import { withRouter } from 'react-router' ;
 import { connect } from 'react-redux';
-import { getMovieList } from '../actions/actions';
+import { getMovieList } from '../actions/movie/action-movie';
 
 const mapDispatchToProps = dispatch => {
   return {
     getMovieList: payload => dispatch(getMovieList(payload))
   };
 }
+
 class Searchbar extends Component {
 
   searchMovie(e) {
-    // e.preventDefault();
+    e.preventDefault();
+    alert('working !');
     // if (this.refs.q.value.length != 0 && this.props.location.query.q != this.refs.q.value) {
         // this.props.router.push(`/movies?q=${this.refs.q.value}`);
         // if (this.props.caller == 'list-page') this.props.getMovieList({q: this.refs.q.value, page: 1});
