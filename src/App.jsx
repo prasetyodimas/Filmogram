@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import BannerAdstop from './components/BannerAdstop';
 import Headers from './components/Headers';
 import Search from './components/Searchbar';
-import SidebarRightApp from './components/SidebarRight';
+// import SidebarRightApp from './components/SidebarRight';
 import MoviebestLanding from './components/MoviebestLanding';
 import FooterApp from './components/Footer';
 import { library } from '@fortawesome/fontawesome-svg-core';

@@ -7,7 +7,7 @@ import {
   SET_MOVIE_LIST,
   SET_MOVIE_DETAIL
 } 
-from '../constants';
+from '../../actions/creators/type';
 
 export function getMovieList(payload) {
   return dispacth => {
