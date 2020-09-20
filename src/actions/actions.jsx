@@ -16,7 +16,7 @@ export function getMovieList(payload) {
       return fetch(`${ API_URL }?${ API_KEY_QUERY_STRING }=${ API_KEY }&s=${ payload.q }&page=${ payload.page }`)
         .then(result => result.json())
         .then(items => {
-            dispacth({ type: SET_MOVIE_LIST, payload: items });
+          dispacth({ type: SET_MOVIE_LIST, payload: items });
         });
   }
 }
@@ -27,7 +27,7 @@ export function getMovieDetail(payload) {
     return fetch(`${ API_URL }?${ API_KEY_QUERY_STRING }=${ API_KEY }&i=${ payload }&plot=full&r=json`)
       .then(result => result.json())
       .then(items => {
-          dispacth({ type: SET_MOVIE_DETAIL, payload: items });
+        dispacth({ type: SET_MOVIE_DETAIL, payload: items });
       })
   }
 }

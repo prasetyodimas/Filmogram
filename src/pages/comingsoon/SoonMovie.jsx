@@ -12,10 +12,10 @@ class SoonMovie extends Component {
 				<Headers/>
 				<Search/>
 				<section className="container">
-          			<div className="col-sm-12">
-           				<h2 className="page-heading">Best offers</h2>
-	          			<div className="offers-block">
-           					<p className="offer-place">Odeon West End offers </p>
+					<div className="col-sm-12">
+						<h2 className="page-heading">Best offers</h2>
+						<div className="offers-block">
+							<p className="offer-place">Odeon West End offers </p>
 							<div className="col-xs-6 col-sm-4 col-md-3 offers-wrap">
 								<Link to="/" className="offer offer--winter">
 									<div className="offer__head">
@@ -27,7 +27,7 @@ class SoonMovie extends Component {
 							</div>
 						</div>
 					</div>
-       		 	</section>
+				</section>
 			</div>
 		);
 	}
